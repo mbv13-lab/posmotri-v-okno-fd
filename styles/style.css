@@ -240,7 +240,7 @@ font-size: 18px;
 text-align: center;
 color: #FFFFFF;
 font-weight: 700;
-margin-left: 10px;
+margin-left: 15px;
 }
 
 .button:hover {
@@ -293,9 +293,11 @@ margin-bottom: 0;
 }
 
 .content__card-link:hover {
-text-decoration: none;
+text-decoration: underline;
+text-underline-offset: 2px;
 color: #fff;
 display: block;
+line-height: 100%;
 }
 
 .content__list {
@@ -348,6 +350,7 @@ color: #FFFFFF;
 
 .content__card-link_current {
 background-color: #545050;
+display: block;
 }
 
 .content__card-link:active {
