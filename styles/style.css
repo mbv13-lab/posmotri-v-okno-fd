@@ -196,7 +196,6 @@ padding-left: 1px;
 width: 16px;
 height: 16px;
 outline-offset: 1px;
-
 }
 
 .search-form__checkbox:checked+.search-form__pseudo-checkbox {
@@ -272,9 +271,12 @@ margin-left: auto;
 }
 
 .more-button {
-width: calc(100% - 15px);
+width: 390px;
 color: #FFFFFF;
-margin-top: 5px;
+margin-left: auto;
+margin-top: 8px;
+margin-bottom: 6px;
+margin-right: 1px;
 }
 
 .content__list-container {
@@ -286,22 +288,16 @@ height: 298px;
 .content__list-item {
 gap: 5px;
 margin-bottom: 30px;
+width: 390px;
 }
 
 .content__list-item:last-child {
 margin-bottom: 0;
 }
 
-.content__card-link:hover {
-text-decoration: underline;
-text-underline-offset: 2px;
-color: #fff;
-display: block;
-line-height: 100%;
-}
 
 .content__list {
-gap: 30px;
+margin-right: 3px;
 }
 
 .content__video-card {
@@ -348,6 +344,10 @@ line-height: 16.2px;
 color: #FFFFFF;
 }
 
+.content__card-link {
+text-decoration: none;
+}
+
 .content__card-link_current {
 background-color: #545050;
 display: block;
@@ -355,10 +355,19 @@ display: block;
 
 .content__card-link:active {
 background-color:#545050;
+display: block;
+text-decoration: none;
+}
+
+.content__card-link:hover {
+color: #fff;
+display: block;
+text-decoration: underline;
 }
 
 .content__card-link:focus {
 outline: none;
+
 }
 
 .content__card-link:focus-visible {
